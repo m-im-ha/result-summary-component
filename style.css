@@ -1,0 +1,56 @@
+:root {
+  /* colors */
+
+  /* font-family */
+}
+
+html {
+  box-sizing: border-box;
+}
+/*  */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+  background-color: blue;
+  text-align: center;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+
+.summary {
+  margin-left: 30px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .score:last-child{
+    padding-left: 50px;
+} */
+.pp {
+  margin-left: 50px;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
+}
