@@ -34,22 +34,18 @@ body {
   color: var(--LightLavender);
 }
 
-
 .container {
   width: 600px;
   margin: 100px auto;
   background-color: var(--White);
   border-radius: 20px;
-  
 }
 
 .app {
-
   box-shadow: 50px 50px 50px var(--PaleBlue);
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* justify-content: center; */
-
 }
 
 .result {
@@ -122,19 +118,6 @@ body {
   color: var(--DarkGrayBlue);
 }
 
-/* .score {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* .score:last-child{
-    padding-left: 50px;
-} */
-/* .pp {
-  margin-left: 50px;
-} */
-
 .score {
   display: flex;
   justify-content: space-between;
@@ -204,19 +187,43 @@ button {
 .attribution {
   text-align: center;
   margin-top: 50px;
+  color: var(--VioletBlue);
 }
 
-@media(max-width:650px){
-  body{
-    background-color: var(--LightRed);
-  }
-
-  .container{
+@media (max-width: 650px) {
+  .container {
     width: 300px;
+    margin: 0 auto;
   }
 
-  .app{
+  .app {
     display: grid;
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .result {
+    padding: 0 100px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .result_info {
+    width: max-content;
+  }
+
+  .score {
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-bottom: 30px;
+    padding: 20px 135px;
+    font-size: 15px;
+    font-weight: 600;
   }
 }
