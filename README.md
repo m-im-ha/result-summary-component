@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/m-im-ha)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://result-summary-component-nu-three.vercel.app/)
 
 ### Built with
 
